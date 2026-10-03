@@ -1,14 +1,11 @@
 {
-  "versao": "0.27.0",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.27.0/Modrik-v0.27.0.exe",
-  "sha256": "0483a7bc1ecb67b2583babedfb9671ceb79946711993e8a594321335e4889010",
-  "tamanho": 66660976,
+  "versao": "0.27.1",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.27.1/Modrik-v0.27.1.exe",
+  "sha256": "bbe1569406b898f6b3f154b68d4878350bfd496b0722defd313f0c878c6e5167",
+  "tamanho": 66662000,
   "notas": [
-    "Atualização automática",
-    "Instalador no próprio .exe",
-    "Endereço da loja automático",
-    "Página de download e guia curto",
-    "Publicar uma versão"
+    "Lista de perfis do \"+ Adicionar ao perfil\" (loja) legível: os menus agora seguem o tema escuro",
+    "Menu de perfis com rolagem e o último perfil aberto em destaque"
   ],
   "data": "2026-10-03"
 }
