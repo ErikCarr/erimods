@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modrik — launcher de mods do Among Us</title>
+<meta name="description" content="Baixe o Modrik, o launcher de mods de Among Us do Erik Carr: perfis, loja de mods e o jogo original intocado.">
+<style>
+  :root { --bg:#f6f4ef; --card:#ffffff; --linha:#e3ded3; --texto:#1d1d1d; --mudo:#5f5b54; --destaque:#e8833a; --destaque-escuro:#b85f1d; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0e1118; --card:#161b27; --linha:#262e45; --texto:#eef1f8; --mudo:#9aa1b6; --destaque:#f0954e; --destaque-escuro:#f5b37f; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--texto); font-family:"Segoe UI", system-ui, sans-serif; line-height:1.55; }
+  main { max-width:880px; margin:0 auto; padding:40px 16px 56px; }
+  header { display:flex; align-items:center; gap:14px; }
+  header img { width:56px; height:56px; }
+  h1 { margin:0; font-size:34px; }
+  .sub { color:var(--mudo); margin:6px 0 0; font-size:16px; }
+  .baixar { display:inline-flex; align-items:center; gap:10px; background:var(--destaque); color:#fff; font-weight:700; font-size:18px; text-decoration:none; border-radius:12px; padding:14px 22px; margin:26px 0 8px; }
+  .baixar:hover { filter:brightness(1.05); }
+  .info { color:var(--mudo); font-size:14px; }
+  h2 { font-size:20px; margin:36px 0 12px; }
+  .passos { display:grid; grid-template-columns:repeat(auto-fit, minmax(190px, 1fr)); gap:12px; }
+  .passo { background:var(--card); border:1px solid var(--linha); border-radius:12px; padding:14px; font-size:14.5px; color:var(--mudo); }
+  .passo b { display:block; color:var(--texto); font-size:15.5px; margin-bottom:4px; }
+  .aviso { background:var(--card); border:1px solid var(--linha); border-left:4px solid var(--destaque); border-radius:0 10px 10px 0; padding:12px 14px; font-size:14.5px; color:var(--mudo); }
+  ul.novidades { margin:6px 0 0 20px; padding:0; color:var(--mudo); font-size:14.5px; }
+  footer { margin-top:44px; color:var(--mudo); font-size:13px; }
+  a { color:var(--destaque-escuro); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="https://raw.githubusercontent.com/ErikCarr/modrik/main/icone.png" alt="" onerror="this.remove()">
+    <div>
+      <h1>Modrik</h1>
+      <p class="sub">O launcher de mods de Among Us do Erik Carr. Perfis de mods, loja de mods e o jogo original intocado.</p>
+    </div>
+  </header>
+
+  <a class="baixar" id="baixar" href="https://github.com/ErikCarr/modrik/releases/latest">⬇ Baixar o Modrik (Windows)</a>
+  <div class="info" id="info">Precisa do Among Us da Steam ou da Epic, no Windows.</div>
+  <div id="novidades"></div>
+
+  <h2>Como usar</h2>
+  <div class="passos">
+    <div class="passo"><b>1. Abra o arquivo</b>O Windows pode avisar "O Windows protegeu o computador". Clique em <i>Mais informações</i> e depois em <i>Executar assim mesmo</i>.</div>
+    <div class="passo"><b>2. Instale</b>Clique em <i>Instalar</i>. O Modrik vai para a pasta de programas, cria os atalhos e acha o Among Us sozinho.</div>
+    <div class="passo"><b>3. Crie um perfil</b>Clique em <i>Novo perfil</i>, dê um nome e adicione mods (arraste o .dll) ou pegue da loja.</div>
+    <div class="passo"><b>4. Loja</b>Na aba <i>Loja</i> aparecem os mods do Erik. Para os liberados só para você, mande o seu código (está lá) para o Erik.</div>
+    <div class="passo"><b>5. Jogue</b>Clique em <i>JOGAR</i>. O Among Us original não é alterado: os mods ficam só no perfil.</div>
+  </div>
+
+  <h2>Bom saber</h2>
+  <div class="aviso">O Modrik se atualiza sozinho: quando sai uma versão nova, ele avisa ao abrir. Seus perfis e mods ficam guardados mesmo se você desinstalar (em <i>Aplicativos instalados</i> do Windows).</div>
+
+  <footer>Modrik · criado por ErikCarr · <a href="https://github.com/ErikCarr/modrik/releases">todas as versões</a></footer>
+</main>
+<script>
+  // versão, tamanho e novidades vêm do atualizacao.json (o mesmo que o Modrik lê para se atualizar)
+  fetch('atualizacao.json?t=' + Date.now()).then(r => r.json()).then(m => {
+    if (!m || !m.versao || !m.url) return;
+    const a = document.getElementById('baixar');
+    a.href = m.url;
+    a.textContent = '⬇ Baixar o Modrik ' + m.versao + ' (Windows)';
+    const mb = m.tamanho ? Math.round(m.tamanho / 1048576) + ' MB · ' : '';
+    document.getElementById('info').textContent = mb + (m.data ? 'versão de ' + m.data.split('-').reverse().join('/') + ' · ' : '') + 'precisa do Among Us da Steam ou da Epic, no Windows.';
+    if (Array.isArray(m.notas) && m.notas.length) {
+      const div = document.getElementById('novidades');
+      const t = document.createElement('div'); t.className = 'info'; t.style.marginTop = '14px'; t.textContent = 'Novidades da ' + m.versao + ':';
+      const ul = document.createElement('ul'); ul.className = 'novidades';
+      m.notas.slice(0, 6).forEach(n => { const li = document.createElement('li'); li.textContent = n; ul.appendChild(li); });
+      div.append(t, ul);
+    }
+  }).catch(() => {});
+</script>
+</body>
+</html>
