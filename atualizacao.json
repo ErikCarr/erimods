@@ -1,11 +1,11 @@
 {
-  "versao": "0.27.1",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.27.1/Modrik-v0.27.1.exe",
-  "sha256": "bbe1569406b898f6b3f154b68d4878350bfd496b0722defd313f0c878c6e5167",
-  "tamanho": 66662000,
+  "versao": "0.28.0",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.28.0/Modrik-v0.28.0.exe",
+  "sha256": "9239fe478538546f2408a37e4f9f3af332e2c4e79be73be106004e2a84af1d9a",
+  "tamanho": 66669168,
   "notas": [
-    "Lista de perfis do \"+ Adicionar ao perfil\" (loja) legível: os menus agora seguem o tema escuro",
-    "Menu de perfis com rolagem e o último perfil aberto em destaque"
+    "Mods da loja também nas cópias do modo dev (cada cópia pega o próprio bilhete)",
+    "Aviso no cartão da cópia quando um mod da loja não carregou"
   ],
   "data": "2026-10-03"
 }
