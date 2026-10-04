@@ -1,11 +1,10 @@
 {
-  "versao": "0.29.0",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.29.0/Modrik-v0.29.0.exe",
-  "sha256": "399777c054dec4c46f0a2b33a9dba1be9bab6d11c1a8baafc52426b94558dee4",
-  "tamanho": 66673264,
+  "versao": "0.30.0",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.30.0/Modrik-v0.30.0.exe",
+  "sha256": "5c6f5d68472cf1fc01279f17e5e2ce8776695d67c2eb5b9f99eaef8128e0f798",
+  "tamanho": 66680432,
   "notas": [
-    "A loja muda de endereço e o Modrik acha o novo sozinho, sem reabrir",
-    "Aviso \"Atualize o Modrik\" quando a loja pede uma versão mais nova"
+    "Endereço da loja direto na aba Loja (ícone ao lado do Atualizar)"
   ],
   "data": "2026-10-04"
 }
