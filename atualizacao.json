@@ -1,10 +1,12 @@
 {
-  "versao": "0.31.0",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.31.0/Modrik-v0.31.0.exe",
-  "sha256": "3743b6264bd9d1be2da4cd785b2c3d45859fd814fe782efc59afb58d9e6b87ed",
-  "tamanho": 66689136,
+  "versao": "0.32.0",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.32.0/Modrik-v0.32.0.exe",
+  "sha256": "cba312c61293ea1fe7b0262b89a04cdc7b83d99874dc5b6995a2bda8f99c32ae",
+  "tamanho": 66773104,
   "notas": [
-    "Modo de jogo dos mods: história (single player), evento, papéis, protagonista ou ferramenta"
+    "Aba Salas: as salas que a galera divulgou pelo Modrik, com filtro por mod",
+    "Botão Entrar: abre o jogo com os mods certos e entra na sala pelo código sozinho",
+    "No perfil, o chip \"mural\" divulga as salas que você criar"
   ],
   "data": "2026-10-04"
 }
