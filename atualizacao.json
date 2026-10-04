@@ -1,11 +1,11 @@
 {
-  "versao": "0.28.0",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.28.0/Modrik-v0.28.0.exe",
-  "sha256": "9239fe478538546f2408a37e4f9f3af332e2c4e79be73be106004e2a84af1d9a",
-  "tamanho": 66669168,
+  "versao": "0.29.0",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.29.0/Modrik-v0.29.0.exe",
+  "sha256": "399777c054dec4c46f0a2b33a9dba1be9bab6d11c1a8baafc52426b94558dee4",
+  "tamanho": 66673264,
   "notas": [
-    "Mods da loja também nas cópias do modo dev (cada cópia pega o próprio bilhete)",
-    "Aviso no cartão da cópia quando um mod da loja não carregou"
+    "A loja muda de endereço e o Modrik acha o novo sozinho, sem reabrir",
+    "Aviso \"Atualize o Modrik\" quando a loja pede uma versão mais nova"
   ],
-  "data": "2026-10-03"
+  "data": "2026-10-04"
 }
