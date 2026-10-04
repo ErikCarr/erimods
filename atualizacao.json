@@ -1,10 +1,10 @@
 {
-  "versao": "0.30.0",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.30.0/Modrik-v0.30.0.exe",
-  "sha256": "5c6f5d68472cf1fc01279f17e5e2ce8776695d67c2eb5b9f99eaef8128e0f798",
-  "tamanho": 66680432,
+  "versao": "0.31.0",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.31.0/Modrik-v0.31.0.exe",
+  "sha256": "3743b6264bd9d1be2da4cd785b2c3d45859fd814fe782efc59afb58d9e6b87ed",
+  "tamanho": 66689136,
   "notas": [
-    "Endereço da loja direto na aba Loja (ícone ao lado do Atualizar)"
+    "Modo de jogo dos mods: história (single player), evento, papéis, protagonista ou ferramenta"
   ],
   "data": "2026-10-04"
 }
