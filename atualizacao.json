@@ -1,12 +1,12 @@
 {
-  "versao": "0.32.0",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.32.0/Modrik-v0.32.0.exe",
-  "sha256": "cba312c61293ea1fe7b0262b89a04cdc7b83d99874dc5b6995a2bda8f99c32ae",
-  "tamanho": 66773104,
+  "versao": "0.33.0",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.33.0/Modrik-v0.33.0.exe",
+  "sha256": "b0d24ca0599a028c4e42109303b02e6eb25661812b9ab43e1a34e5df983f8bbc",
+  "tamanho": 66776176,
   "notas": [
-    "Aba Salas: as salas que a galera divulgou pelo Modrik, com filtro por mod",
-    "Botão Entrar: abre o jogo com os mods certos e entra na sala pelo código sozinho",
-    "No perfil, o chip \"mural\" divulga as salas que você criar"
+    "A sala continua no mural quando o host sai, com \"o host mudou\"",
+    "Um Modrik só: abrir de novo traz o que está aberto para a frente",
+    "Corrigido o erro \"settings.json.tmp\" com dois Modriks abertos"
   ],
   "data": "2026-10-04"
 }
