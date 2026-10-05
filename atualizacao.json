@@ -1,11 +1,11 @@
 {
-  "versao": "0.34.0",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.34.0/Modrik-v0.34.0.exe",
-  "sha256": "19f9faa043aacab6179a17f8b2d6855d398ebc30aed3668be2e67c81c91c160b",
-  "tamanho": 66787440,
+  "versao": "0.35.0",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.35.0/Modrik-v0.35.0.exe",
+  "sha256": "01793a657de191d6c0f7e498fbe868e2446409c9d5919306aaed70fbff750e3c",
+  "tamanho": 66791536,
   "notas": [
-    "Aba Início: o último perfil com o JOGAR, os perfis recentes e atalhos para Salas e Loja",
-    "Dá para voltar a abrir no último perfil em Configurações → Ao abrir"
+    "Estatísticas de uso (só contagem): quando o Modrik abre, quando você joga por ele e quando se atualiza",
+    "Nada de nome, arquivo ou IP; para desligar: Configurações → Privacidade"
   ],
   "data": "2026-10-05"
 }
