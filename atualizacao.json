@@ -7,5 +7,7 @@
     "Estatísticas de uso (só contagem): quando o Modrik abre, quando você joga por ele e quando se atualiza",
     "Nada de nome, arquivo ou IP; para desligar: Configurações → Privacidade"
   ],
-  "data": "2026-10-05"
+  "data": "2026-10-05",
+  "loja": "https://loja.erikcarr.workers.dev",
+  "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z"
 }
