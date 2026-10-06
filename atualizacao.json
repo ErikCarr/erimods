@@ -1,13 +1,14 @@
 {
-  "versao": "0.35.0",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.35.0/Modrik-v0.35.0.exe",
-  "sha256": "01793a657de191d6c0f7e498fbe868e2446409c9d5919306aaed70fbff750e3c",
-  "tamanho": 66791536,
+  "versao": "0.36.0",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.36.0/EriMods-v0.36.0.exe",
+  "sha256": "e55b679dfd33fdd72315c42db9c2513c63b1e53cc4861dfa986415e1f35c8fd2",
+  "tamanho": 66898038,
   "notas": [
-    "Estatísticas de uso (só contagem): quando o Modrik abre, quando você joga por ele e quando se atualiza",
-    "Nada de nome, arquivo ou IP; para desligar: Configurações → Privacidade"
+    "O Modrik agora se chama EriMods: nome, logo e atalhos novos; seus perfis e mods continuam onde estavam",
+    "Página do mod na Loja: ícone, imagens (clique para ver grande), descrição completa e \"Pôr num perfil\"",
+    "A loja na nuvem é usada como reserva quando o endereço publicado ainda não chegou"
   ],
-  "data": "2026-10-05",
+  "data": "2026-10-06",
   "loja": "https://loja.erikcarr.workers.dev",
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z"
 }
