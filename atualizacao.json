@@ -1,12 +1,10 @@
 {
-  "versao": "0.36.0",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.36.0/EriMods-v0.36.0.exe",
-  "sha256": "e55b679dfd33fdd72315c42db9c2513c63b1e53cc4861dfa986415e1f35c8fd2",
-  "tamanho": 66898038,
+  "versao": "0.37.0",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.37.0/EriMods-v0.37.0.exe",
+  "sha256": "565acd8461ec042363f77c8bf4d18004aed3a5d17733d8bd507f023e3773e0bf",
+  "tamanho": 66899574,
   "notas": [
-    "O Modrik agora se chama EriMods: nome, logo e atalhos novos; seus perfis e mods continuam onde estavam",
-    "Página do mod na Loja: ícone, imagens (clique para ver grande), descrição completa e \"Pôr num perfil\"",
-    "A loja na nuvem é usada como reserva quando o endereço publicado ainda não chegou"
+    "Cabeçalho do perfil mais limpo: os botões do BepInEx, da tela, do servidor, do tipo e do mural ficam em Configurações → Perfis → \"Configurações avançadas do perfil\""
   ],
   "data": "2026-10-06",
   "loja": "https://loja.erikcarr.workers.dev",
