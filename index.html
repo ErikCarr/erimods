@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Modrik — launcher de mods do Among Us</title>
-<meta name="description" content="Baixe o Modrik, o launcher de mods de Among Us do Erik Carr: perfis, loja de mods e o jogo original intocado.">
+<title>EriMods — launcher de mods do Among Us</title>
+<meta name="description" content="Baixe o EriMods (antes chamado Modrik), o launcher de mods de Among Us do Erik Carr: perfis, loja de mods e o jogo original intocado.">
 <style>
   :root { --bg:#f6f4ef; --card:#ffffff; --linha:#e3ded3; --texto:#1d1d1d; --mudo:#5f5b54; --destaque:#e8833a; --destaque-escuro:#b85f1d; }
   @media (prefers-color-scheme: dark) { :root { --bg:#0e1118; --card:#161b27; --linha:#262e45; --texto:#eef1f8; --mudo:#9aa1b6; --destaque:#f0954e; --destaque-escuro:#f5b37f; } }
@@ -33,37 +33,37 @@
   <header>
     <img src="https://raw.githubusercontent.com/ErikCarr/modrik/main/icone.png" alt="" onerror="this.remove()">
     <div>
-      <h1>Modrik</h1>
+      <h1>EriMods</h1>
       <p class="sub">O launcher de mods de Among Us do Erik Carr. Perfis de mods, loja de mods e o jogo original intocado.</p>
     </div>
   </header>
 
-  <a class="baixar" id="baixar" href="https://github.com/ErikCarr/modrik/releases/latest">⬇ Baixar o Modrik (Windows)</a>
+  <a class="baixar" id="baixar" href="https://github.com/ErikCarr/modrik/releases/latest">⬇ Baixar o EriMods (Windows)</a>
   <div class="info" id="info">Precisa do Among Us da Steam ou da Epic, no Windows.</div>
   <div id="novidades"></div>
 
   <h2>Como usar</h2>
   <div class="passos">
     <div class="passo"><b>1. Abra o arquivo</b>O Windows pode avisar "O Windows protegeu o computador". Clique em <i>Mais informações</i> e depois em <i>Executar assim mesmo</i>.</div>
-    <div class="passo"><b>2. Instale</b>Clique em <i>Instalar</i>. O Modrik vai para a pasta de programas, cria os atalhos e acha o Among Us sozinho.</div>
+    <div class="passo"><b>2. Instale</b>Clique em <i>Instalar</i>. O EriMods vai para a pasta de programas, cria os atalhos e acha o Among Us sozinho.</div>
     <div class="passo"><b>3. Crie um perfil</b>Clique em <i>Novo perfil</i>, dê um nome e adicione mods (arraste o .dll) ou pegue da loja.</div>
     <div class="passo"><b>4. Loja</b>Na aba <i>Loja</i> aparecem os mods do Erik. Para os liberados só para você, mande o seu código (está lá) para o Erik.</div>
     <div class="passo"><b>5. Jogue</b>Clique em <i>JOGAR</i>. O Among Us original não é alterado: os mods ficam só no perfil.</div>
   </div>
 
   <h2>Bom saber</h2>
-  <div class="aviso">O Modrik se atualiza sozinho: quando sai uma versão nova, ele avisa ao abrir. Seus perfis e mods ficam guardados mesmo se você desinstalar (em <i>Aplicativos instalados</i> do Windows).</div>
-  <div class="aviso">O Modrik conta, sem dados pessoais, quando ele abre, quando você joga por ele e quando se atualiza (a versão e um código do PC, nada de nome, arquivo ou IP). Para desligar: Configurações → Privacidade.</div>
+  <div class="aviso">O EriMods se atualiza sozinho: quando sai uma versão nova, ele avisa ao abrir. Seus perfis e mods ficam guardados mesmo se você desinstalar (em <i>Aplicativos instalados</i> do Windows).</div>
+  <div class="aviso">O EriMods conta, sem dados pessoais, quando ele abre, quando você joga por ele e quando se atualiza (a versão e um código do PC, nada de nome, arquivo ou IP). Para desligar: Configurações → Privacidade.</div>
 
-  <footer>Modrik · criado por ErikCarr · <a href="https://github.com/ErikCarr/modrik/releases">todas as versões</a></footer>
+  <footer>EriMods · criado por ErikCarr · <a href="https://github.com/ErikCarr/modrik/releases">todas as versões</a></footer>
 </main>
 <script>
-  // versão, tamanho e novidades vêm do atualizacao.json (o mesmo que o Modrik lê para se atualizar)
+  // versão, tamanho e novidades vêm do atualizacao.json (o mesmo que o EriMods lê para se atualizar)
   fetch('atualizacao.json?t=' + Date.now()).then(r => r.json()).then(m => {
     if (!m || !m.versao || !m.url) return;
     const a = document.getElementById('baixar');
     a.href = m.url;
-    a.textContent = '⬇ Baixar o Modrik ' + m.versao + ' (Windows)';
+    a.textContent = '⬇ Baixar o EriMods ' + m.versao + ' (Windows)';
     const mb = m.tamanho ? Math.round(m.tamanho / 1048576) + ' MB · ' : '';
     document.getElementById('info').textContent = mb + (m.data ? 'versão de ' + m.data.split('-').reverse().join('/') + ' · ' : '') + 'precisa do Among Us da Steam ou da Epic, no Windows.';
     if (Array.isArray(m.notas) && m.notas.length) {
