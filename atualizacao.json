@@ -1,17 +1,16 @@
 {
-  "versao": "0.39.0",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.39.0/EriMods-v0.39.0.exe",
-  "sha256": "ee11fdee0900a4efe878946ed17812b714cfa29d2b2ce2f4848dba4b272f2561",
-  "tamanho": 68088224,
+  "versao": "0.39.1",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.39.1/EriMods-v0.39.1.exe",
+  "sha256": "bf6e586332192c97d1268520c9224111b1278697cb17abe1c1e9e76eca0230c5",
+  "tamanho": 68092320,
   "notas": [
-    "Atualizações assinadas: o EriMods só instala atualizações com a assinatura digital do Erik",
-    "\"Relatar um problema\" em Configurações → Privacidade e no perfil",
-    "O carregador dos mods da loja se atualiza sozinho, e o mural das salas passa a ficar na nuvem"
+    "O botão \"mural\" do perfil fica sempre à vista",
+    "O \"Atualizar\" das abas Salas e Loja mostra que está lendo (ícone girando e a hora no fim)"
   ],
   "data": "2026-10-06",
   "loja": "https://loja.erikcarr.workers.dev",
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
-  "assinatura": "MEUCIQDCvxJzz06OBxt/5HlXduTkrIOYTJlcPvYAY3ch0Rx9JAIgNFej0N59ahH+BoZ3SalNGiL+A2V+HVmATQQMWhItX8o=",
+  "assinatura": "MEQCIHmuYd7pZoOLkPrulwNwzRWxraS3RKvK0iiVBPQYg5A1AiA7xatxPcMZ409a3yZkMlGdUclk+vakxxyq2fZEMCPCmQ==",
   "erikloader": {
     "versao": "0.12.3",
     "url": "https://github.com/ErikCarr/modrik/releases/download/erikloader-v0.12.3/ErikLoader.dll",
