@@ -1,15 +1,16 @@
 {
-  "versao": "0.40.1",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.40.1/EriMods-v0.40.1.exe",
-  "sha256": "7c5c9e97ed5824678c1635b7403eeec27affe1f4205b8bee422c72af2331f44c",
-  "tamanho": 68096416,
+  "versao": "0.40.2",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.40.2/EriMods-v0.40.2.exe",
+  "sha256": "d16c036270aa1ba9d31275246e8a77b8122819b2d91a88f5ceb31491b1800ff1",
+  "tamanho": 68100512,
   "notas": [
-    "O diário volta a anotar quando a pasta de dados muda para %AppData%\\EriMods"
+    "A coluna de Perfis recolhe e abre deslizando",
+    "O \"Tela média\" pede confirmação explicando como o jogo vai abrir"
   ],
   "data": "2026-10-06",
   "loja": "https://loja.erikcarr.workers.dev",
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
-  "assinatura": "MEYCIQDLzuoR7IivDpz9pb1vb+2dyv+e1VrRGS1wDDIDUOL9bwIhAL6kz5oUgNqAUagQb6Oix9PNTjFY9kh5OtW5rRlWcXZL",
+  "assinatura": "MEUCIQDQoH328uzT6wrmDohb+K1rqcp95Fg+vkKZwXKBgCkRBQIgQXa5xRJ1MBqwwRvdRhwsbcMi1CRpM9vmafYJ2gnCLm4=",
   "erikloader": {
     "versao": "0.12.3",
     "url": "https://github.com/ErikCarr/modrik/releases/download/erikloader-v0.12.3/ErikLoader.dll",
