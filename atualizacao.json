@@ -1,17 +1,15 @@
 {
-  "versao": "0.40.0",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.40.0/EriMods-v0.40.0.exe",
-  "sha256": "865b467da43dbcbc392802b72b144ed29dcf4ec30a04895ebc8d01a7e79286bf",
+  "versao": "0.40.1",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.40.1/EriMods-v0.40.1.exe",
+  "sha256": "7c5c9e97ed5824678c1635b7403eeec27affe1f4205b8bee422c72af2331f44c",
   "tamanho": 68096416,
   "notas": [
-    "Os dados passam para %AppData%\\EriMods (sozinho, na primeira abertura; o caminho antigo continua funcionando)",
-    "Configurações mais limpas: o que é para quem faz mods fica no Modo Dev, escondido",
-    "A aba Servidores aparece para todos, a coluna de Perfis pode ser recolhida e \"Tela média\" corrige a tela do jogo"
+    "O diário volta a anotar quando a pasta de dados muda para %AppData%\\EriMods"
   ],
   "data": "2026-10-06",
   "loja": "https://loja.erikcarr.workers.dev",
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
-  "assinatura": "MEQCIATKaa6bsAV9jF1pl/zcQR2z6vV2h7xwGHtlGWPFFdggAiAqopaLmUmVAnmZ1fIZOE3R/CrudQbHQNFKs1x0YPNetg==",
+  "assinatura": "MEYCIQDLzuoR7IivDpz9pb1vb+2dyv+e1VrRGS1wDDIDUOL9bwIhAL6kz5oUgNqAUagQb6Oix9PNTjFY9kh5OtW5rRlWcXZL",
   "erikloader": {
     "versao": "0.12.3",
     "url": "https://github.com/ErikCarr/modrik/releases/download/erikloader-v0.12.3/ErikLoader.dll",
