@@ -1,14 +1,13 @@
 {
-  "versao": "0.13.1",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/celular-v0.13.1/Modrik-Celular-v0.13.1.apk",
-  "sha256": "74fdcdb602777861a75845c98903aa868ebc7529f42e4ca2121b8fc91c806ee6",
-  "tamanho": 81755277,
+  "versao": "0.14.0",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/celular-v0.14.0/Modrik-Celular-v0.14.0.apk",
+  "sha256": "bd287da1bf54cf7c1b46df4fe4b54662971950946e80cdf6887f57a5d69eac54",
+  "tamanho": 81771665,
   "notas": [
-    "Primeira versão publicada do Modrik Celular: perfis de mods, biblioteca e a loja do Erik no Android",
-    "O jogo abre pelo motor EriKore, que já vem dentro do app (não precisa instalar mais nada)",
-    "A loja do Erik fica sempre no ar e o app acha ela sozinho",
-    "Trocar de aba arrastando a tela para o lado",
-    "O app se atualiza sozinho nas próximas versões"
+    "Aba Início: continue de onde parou, com o JOGAR grande do último perfil",
+    "Os outros perfis com Jogar direto e a loja a um toque",
+    "Perfis agora é rosa (o laranja ficou com o Início)",
+    "Ajustes: Abrir no Início (desligado, abre na última aba usada)"
   ],
   "data": "2026-10-06"
 }
