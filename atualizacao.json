@@ -1,10 +1,12 @@
 {
-  "versao": "0.37.0",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.37.0/EriMods-v0.37.0.exe",
-  "sha256": "565acd8461ec042363f77c8bf4d18004aed3a5d17733d8bd507f023e3773e0bf",
-  "tamanho": 66899574,
+  "versao": "0.38.0",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.38.0/EriMods-v0.38.0.exe",
+  "sha256": "4d59926fbdd5aa875ce39ea5ebd73e8fb8e6087a5ec6748798936091a9944295",
+  "tamanho": 68067744,
   "notas": [
-    "Cabeçalho do perfil mais limpo: os botões do BepInEx, da tela, do servidor, do tipo e do mural ficam em Configurações → Perfis → \"Configurações avançadas do perfil\""
+    "Tela de carregamento ao abrir, com o passo atual",
+    "Relatórios de problema: quando o jogo fecha com erro, um mod não carrega ou o EriMods trava, ele pergunta se manda para o Erik (Configurações → Privacidade)",
+    "A janela não trava mais ao voltar para ela (a releitura dos mods roda por fora)"
   ],
   "data": "2026-10-06",
   "loja": "https://loja.erikcarr.workers.dev",
