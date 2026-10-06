@@ -1,16 +1,16 @@
 {
-  "versao": "0.40.2",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.40.2/EriMods-v0.40.2.exe",
-  "sha256": "d16c036270aa1ba9d31275246e8a77b8122819b2d91a88f5ceb31491b1800ff1",
-  "tamanho": 68100512,
+  "versao": "0.41.0",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.41.0/EriMods-v0.41.0.exe",
+  "sha256": "4fdc69b46cecfda57aa8c2e70ae76c34da271bfdd25a8a47b7e33e5da1bdaaea",
+  "tamanho": 68129184,
   "notas": [
-    "A coluna de Perfis recolhe e abre deslizando",
-    "O \"Tela média\" pede confirmação explicando como o jogo vai abrir"
+    "Barra amarela no topo assim que existe versão nova (Atualizar, Novidades, ×)",
+    "Procura versão nova a cada 30 minutos com o EriMods aberto"
   ],
   "data": "2026-10-06",
   "loja": "https://loja.erikcarr.workers.dev",
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
-  "assinatura": "MEUCIQDQoH328uzT6wrmDohb+K1rqcp95Fg+vkKZwXKBgCkRBQIgQXa5xRJ1MBqwwRvdRhwsbcMi1CRpM9vmafYJ2gnCLm4=",
+  "assinatura": "MEQCIHbajWR1VXoFwiXMdWZlSsFXWDHRqv0nqGr7MqYFYTK0AiBc3zk7H1Dq/KQr+e+TBZFcOL0hm8IvDMUoTYCYYemEEQ==",
   "erikloader": {
     "versao": "0.12.3",
     "url": "https://github.com/ErikCarr/modrik/releases/download/erikloader-v0.12.3/ErikLoader.dll",
