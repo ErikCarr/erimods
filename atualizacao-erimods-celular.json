@@ -1,0 +1,14 @@
+{
+  "versao": "0.18.1",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/erimods-celular-v0.18.1/EriMods-Celular-v0.18.1.apk",
+  "sha256": "9abe5972458b95d2b45501014cd181552c6fb6baecbac6ec28affdc526b9c9c5",
+  "tamanho": 81853669,
+  "notas": [
+    "O Modrik Celular agora é EriMods Mobile (app novo, pasta /sdcard/EriMods)",
+    "Relatar um problema em Ajustes, e o app pergunta quando o jogo fecha com erro",
+    "Ajustes mais curto, com Opções avançadas e o modo dev numa caixa própria",
+    "Loja: botão Atualizar que mostra o que está acontecendo e puxar para atualizar",
+    "Carregador da loja (ErikLoader) 0.12.3"
+  ],
+  "data": "2026-10-06"
+}
