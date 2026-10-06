@@ -1,12 +1,15 @@
 {
-  "versao": "0.38.1",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.38.1/EriMods-v0.38.1.exe",
-  "sha256": "8cb011621523a6a3f6c2c732e4d5d7a67cd487a22bf0a5e6962bbb6f3afb407a",
-  "tamanho": 68071840,
+  "versao": "0.39.0",
+  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.39.0/EriMods-v0.39.0.exe",
+  "sha256": "ee11fdee0900a4efe878946ed17812b714cfa29d2b2ce2f4848dba4b272f2561",
+  "tamanho": 68088224,
   "notas": [
-    "A tela de carregamento tem um anel girando em volta do selo do logo, para mostrar que o EriMods não travou"
+    "Atualizações assinadas: o EriMods só instala atualizações com a assinatura digital do Erik",
+    "\"Relatar um problema\" em Configurações → Privacidade e no perfil",
+    "O carregador dos mods da loja se atualiza sozinho, e o mural das salas passa a ficar na nuvem"
   ],
   "data": "2026-10-06",
   "loja": "https://loja.erikcarr.workers.dev",
-  "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z"
+  "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
+  "assinatura": "MEUCIQDCvxJzz06OBxt/5HlXduTkrIOYTJlcPvYAY3ch0Rx9JAIgNFej0N59ahH+BoZ3SalNGiL+A2V+HVmATQQMWhItX8o="
 }
