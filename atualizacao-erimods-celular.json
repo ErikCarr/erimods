@@ -1,11 +1,8 @@
 {
-  "versao": "0.22.0",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v0.22.0/EriMods-Celular-v0.22.0.apk",
-  "sha256": "7702073a80480c50b6aad12b17437462556fc9f91d4d0f861cca1f56344ee64b",
-  "tamanho": 81870136,
-  "notas": [
-    "O seu Nome no jogo vai junto com o código do aparelho quando você abre a Loja.",
-    "Nada muda na tela."
-  ],
+  "versao": "0.23.0",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v0.23.0/EriMods-Celular-v0.23.0.apk",
+  "sha256": "e12d61858cf491f485d2990a572ade7f7fde40131463a86fb4ec060814be89d6",
+  "tamanho": 81902908,
+  "notas": [],
   "data": "2026-10-07"
 }
