@@ -2,7 +2,7 @@
 
 O launcher de mods de Among Us do Erik Carr: perfis de mods, loja de mods e o jogo original intocado.
 
-**Baixar:** https://erikcarr.github.io/modrik/ (ou a versão mais nova em [Releases](https://github.com/ErikCarr/modrik/releases/latest)).
+**Baixar:** https://erikcarr.github.io/erimods/ (ou a versão mais nova em [Releases](https://github.com/ErikCarr/erimods/releases/latest)).
 
 Este repositório guarda só as versões publicadas do EriMods (o `.exe` em cada Release), a página de download e o
 `atualizacao.json`, que o EriMods lê para avisar quando tem versão nova. O código fica em outro lugar.
