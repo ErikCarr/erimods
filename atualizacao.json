@@ -1,16 +1,18 @@
 {
-  "versao": "0.41.1",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/v0.41.1/EriMods-v0.41.1.exe",
-  "sha256": "7715fbdc4a3e769c3d9833a5ce56d8fffcb96aedc2fd93a4ee6855dac60e20b5",
-  "tamanho": 68129184,
+  "versao": "0.42.0",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/v0.42.0/EriMods-v0.42.0.exe",
+  "sha256": "56ef4fe3d758148fef44ce51cd18de3cb81356074957b8e489c115fea128931d",
+  "tamanho": 68137376,
   "notas": [
-    "Página de download no endereço novo (erikcarr.github.io/erimods)",
-    "Endereço novo do repositório público (ErikCarr/erimods)"
+    "Tela \"Abrindo o Among Us\" enquanto o jogo abre (com aviso na primeira vez de um perfil)",
+    "Resultado do relatório numa janela",
+    "BepInEx e Abrir no Início foram para o Modo Dev",
+    "Página de download volta a abrir"
   ],
   "data": "2026-10-07",
   "loja": "https://loja.erikcarr.workers.dev",
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
-  "assinatura": "MEUCIA6oux1PwQCP/V8DJR0z1YsVyL4iKyKBORObJh2Rbnn1AiEAmESdJRs9iAvkjEzYA8FGWiY5oYee6LiNeV3u9uUxQGI=",
+  "assinatura": "MEUCID/PLhHvnAUUkMln8MpUOrUvBKe3ByJEFeYjs6S8NrI1AiEA75tyOprsWIoqpYss4hKAIJEyu0oqqZuVbB9rSf60nN4=",
   "erikloader": {
     "versao": "0.12.3",
     "url": "https://github.com/ErikCarr/modrik/releases/download/erikloader-v0.12.3/ErikLoader.dll",
