@@ -1,16 +1,16 @@
 {
-  "versao": "0.41.0",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/v0.41.0/EriMods-v0.41.0.exe",
-  "sha256": "4fdc69b46cecfda57aa8c2e70ae76c34da271bfdd25a8a47b7e33e5da1bdaaea",
+  "versao": "0.41.1",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/v0.41.1/EriMods-v0.41.1.exe",
+  "sha256": "7715fbdc4a3e769c3d9833a5ce56d8fffcb96aedc2fd93a4ee6855dac60e20b5",
   "tamanho": 68129184,
   "notas": [
-    "Barra amarela no topo assim que existe versão nova (Atualizar, Novidades, ×)",
-    "Procura versão nova a cada 30 minutos com o EriMods aberto"
+    "Página de download no endereço novo (erikcarr.github.io/erimods)",
+    "Endereço novo do repositório público (ErikCarr/erimods)"
   ],
-  "data": "2026-10-06",
+  "data": "2026-10-07",
   "loja": "https://loja.erikcarr.workers.dev",
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
-  "assinatura": "MEQCIHbajWR1VXoFwiXMdWZlSsFXWDHRqv0nqGr7MqYFYTK0AiBc3zk7H1Dq/KQr+e+TBZFcOL0hm8IvDMUoTYCYYemEEQ==",
+  "assinatura": "MEUCIA6oux1PwQCP/V8DJR0z1YsVyL4iKyKBORObJh2Rbnn1AiEAmESdJRs9iAvkjEzYA8FGWiY5oYee6LiNeV3u9uUxQGI=",
   "erikloader": {
     "versao": "0.12.3",
     "url": "https://github.com/ErikCarr/modrik/releases/download/erikloader-v0.12.3/ErikLoader.dll",
@@ -19,5 +19,6 @@
     "tamanho": 25088
   },
   "mural": "https://mural.erikcarr.workers.dev",
-  "muralAtualizadoEm": "2026-10-06T20:34:40.014Z"
+  "muralAtualizadoEm": "2026-10-06T20:34:40.014Z",
+  "pagina": "https://erikcarr.github.io/erimods/"
 }
