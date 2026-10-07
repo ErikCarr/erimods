@@ -1,14 +1,11 @@
 {
-  "versao": "0.21.1",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v0.21.1/EriMods-Celular-v0.21.1.apk",
-  "sha256": "fbbeccacd8af3fd7affd5960079388274364937b29f2f55c7215d84f456fd7b1",
+  "versao": "0.21.2",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v0.21.2/EriMods-Celular-v0.21.2.apk",
+  "sha256": "aaf478f1b319e05e60dce4a97e395f3140636300ac147e1dbb816fbb6429b705",
   "tamanho": 81870140,
   "notas": [
-    "Novo \"Nome no jogo\" em Ajustes: o nome vale em todos os apps com o motor EriKore.",
-    "Aviso claro quando o Among Us atualiza e o motor ainda não funciona com ele.",
-    "Ajustes mostra a versão do Among Us e da Unity.",
-    "Apertar Voltar duas vezes no Início fecha o app; o Voltar sempre age dentro do app.",
-    "Motor EriKore 0.18.1."
+    "O app passa a procurar as novidades no endereço novo do EriMods (ErikCarr/erimods), com o antigo de reserva.",
+    "Nada muda na tela."
   ],
   "data": "2026-10-07"
 }
