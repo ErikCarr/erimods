@@ -1,10 +1,10 @@
 {
-  "versao": "0.21.2",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v0.21.2/EriMods-Celular-v0.21.2.apk",
-  "sha256": "aaf478f1b319e05e60dce4a97e395f3140636300ac147e1dbb816fbb6429b705",
-  "tamanho": 81870140,
+  "versao": "0.22.0",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v0.22.0/EriMods-Celular-v0.22.0.apk",
+  "sha256": "7702073a80480c50b6aad12b17437462556fc9f91d4d0f861cca1f56344ee64b",
+  "tamanho": 81870136,
   "notas": [
-    "O app passa a procurar as novidades no endereço novo do EriMods (ErikCarr/erimods), com o antigo de reserva.",
+    "O seu Nome no jogo vai junto com o código do aparelho quando você abre a Loja.",
     "Nada muda na tela."
   ],
   "data": "2026-10-07"
