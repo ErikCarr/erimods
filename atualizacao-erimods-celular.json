@@ -1,13 +1,12 @@
 {
-  "versao": "1.0.0",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.0.0/EriMods-Celular-v1.0.0.apk",
-  "sha256": "c3e22a4a7076e79d74d04fbaf2ccdad49ef3a0f0eeb2d9b187e733c6a067dd48",
-  "tamanho": 81902981,
+  "versao": "1.1.0",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.1.0/EriMods-Celular-v1.1.0.apk",
+  "sha256": "f945bc3f49b069616fb618a2a730d79e5a8ea6ea054056aa176d6512100b9b31",
+  "tamanho": 81919525,
   "notas": [
-    "Lançamento do EriMods Celular 1.0.0!",
-    "Perfis de mods, a loja do Erik e o motor próprio EriKore 1.0.0, que abre o Among Us da Play Store com os mods.",
-    "Quando o Among Us for atualizado, o app baixa sozinho o que falta para os mods.",
-    "Nova tela de licenças em Ajustes."
+    "Se o Among Us já estiver aberto por outro app (como o EriK Launcher), o EriMods avisa para fechar ele antes de jogar.",
+    "Tela de licenças completa.",
+    "Motor do jogo EriKore 1.1.0."
   ],
   "data": "2026-10-07"
 }
