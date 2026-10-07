@@ -1,14 +1,14 @@
 {
-  "versao": "0.18.1",
-  "url": "https://github.com/ErikCarr/modrik/releases/download/erimods-celular-v0.18.1/EriMods-Celular-v0.18.1.apk",
-  "sha256": "9abe5972458b95d2b45501014cd181552c6fb6baecbac6ec28affdc526b9c9c5",
-  "tamanho": 81853669,
+  "versao": "0.21.1",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v0.21.1/EriMods-Celular-v0.21.1.apk",
+  "sha256": "fbbeccacd8af3fd7affd5960079388274364937b29f2f55c7215d84f456fd7b1",
+  "tamanho": 81870140,
   "notas": [
-    "O Modrik Celular agora é EriMods Mobile (app novo, pasta /sdcard/EriMods)",
-    "Relatar um problema em Ajustes, e o app pergunta quando o jogo fecha com erro",
-    "Ajustes mais curto, com Opções avançadas e o modo dev numa caixa própria",
-    "Loja: botão Atualizar que mostra o que está acontecendo e puxar para atualizar",
-    "Carregador da loja (ErikLoader) 0.12.3"
+    "Novo \"Nome no jogo\" em Ajustes: o nome vale em todos os apps com o motor EriKore.",
+    "Aviso claro quando o Among Us atualiza e o motor ainda não funciona com ele.",
+    "Ajustes mostra a versão do Among Us e da Unity.",
+    "Apertar Voltar duas vezes no Início fecha o app; o Voltar sempre age dentro do app.",
+    "Motor EriKore 0.18.1."
   ],
-  "data": "2026-10-06"
+  "data": "2026-10-07"
 }
