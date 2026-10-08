@@ -1,17 +1,16 @@
 {
-  "versao": "1.0.0",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.0.0/EriMods-v1.0.0.exe",
-  "sha256": "b628773e383b1a8305c544a241817c4d7b4693542dc8e7524b5e5bb0486d6906",
+  "versao": "1.0.1",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.0.1/EriMods-v1.0.1.exe",
+  "sha256": "8dfab475359241d5448b2039a1b9170ff772cb0ae4888a9db0f03e206e2802a9",
   "tamanho": 68133272,
   "notas": [
-    "EriMods 1.0.0: o lançamento!",
-    "Pronto para o Among Us de 64 bits (servidores, mural de salas e cópias)",
-    "Perfil com o BepInEx de 32 bits é trocado sozinho para o de 64 bits"
+    "Servidor brasileiro Bllr-Brasil já vem ligado na lista",
+    "A lista agora se chama \"Servidores não oficiais\""
   ],
-  "data": "2026-10-07",
+  "data": "2026-10-08",
   "loja": "https://loja.erikcarr.workers.dev",
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
-  "assinatura": "MEQCIDIX8oSMLwhIp7yis4D31+06pU9iNwuD4qVzbXIsHViTAiBVc83Igygvq7AoepZx64uo8mxPtsU1hZOJOeBGVb95aw==",
+  "assinatura": "MEYCIQCxiFVblSPsd1ttILEdA0x+WydSxL/V4ngWFa0P3x6RjgIhAINFGD1dRoS7TpI8XGhYur+ewXPVJibxnzBQ+EYSqXp3",
   "erikloader": {
     "versao": "0.12.3",
     "url": "https://github.com/ErikCarr/modrik/releases/download/erikloader-v0.12.3/ErikLoader.dll",
