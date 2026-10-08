@@ -1,12 +1,12 @@
 {
-  "versao": "1.1.0",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.1.0/EriMods-Celular-v1.1.0.apk",
-  "sha256": "f945bc3f49b069616fb618a2a730d79e5a8ea6ea054056aa176d6512100b9b31",
-  "tamanho": 81919525,
+  "versao": "1.2.0",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.2.0/EriMods-Celular-v1.2.0.apk",
+  "sha256": "ab6ce78fe480fc39c4561f69cec8dfc5936cafc342a4bbb137b8ce6bc92a7224",
+  "tamanho": 81952440,
   "notas": [
-    "Se o Among Us já estiver aberto por outro app (como o EriK Launcher), o EriMods avisa para fechar ele antes de jogar.",
-    "Tela de licenças completa.",
-    "Motor do jogo EriKore 1.1.0."
+    "Nova aba Servidores: ponha e tire servidores da lista do Among Us, como no EriMods de PC.",
+    "Servidores prontos (Modded, Niko233, AllOfUs, MAUL e outros) com um toque.",
+    "Dá para desligar os servidores oficiais que você não usa."
   ],
-  "data": "2026-10-07"
+  "data": "2026-10-08"
 }
