@@ -1,12 +1,8 @@
 {
-  "versao": "1.2.0",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.2.0/EriMods-Celular-v1.2.0.apk",
-  "sha256": "ab6ce78fe480fc39c4561f69cec8dfc5936cafc342a4bbb137b8ce6bc92a7224",
-  "tamanho": 81952440,
-  "notas": [
-    "Nova aba Servidores: ponha e tire servidores da lista do Among Us, como no EriMods de PC.",
-    "Servidores prontos (Modded, Niko233, AllOfUs, MAUL e outros) com um toque.",
-    "Dá para desligar os servidores oficiais que você não usa."
-  ],
-  "data": "2026-10-08"
+  "versao": "1.2.1",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.2.1/EriMods-Celular-v1.2.1.apk",
+  "sha256": "6f006d316873d0ec257abe93488421f0e93cf770a9434c23dedb5d85b0d5a9d0",
+  "tamanho": 81952376,
+  "notas": [],
+  "data": "2026-10-23"
 }
