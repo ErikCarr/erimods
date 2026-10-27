@@ -1,8 +1,11 @@
 {
-  "versao": "1.2.1",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.2.1/EriMods-Celular-v1.2.1.apk",
-  "sha256": "6f006d316873d0ec257abe93488421f0e93cf770a9434c23dedb5d85b0d5a9d0",
-  "tamanho": 81952376,
-  "notas": [],
-  "data": "2026-10-23"
+  "versao": "1.3.0",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.3.0/EriMods-Celular-v1.3.0.apk",
+  "sha256": "ef3233e4f478a01d778964692e5f9281cdd42a0856c27903effb96dc05e91b11",
+  "tamanho": 81968796,
+  "notas": [
+    "Agora funciona no Android 9 e no Android 10 (antes só no 11 ou mais novo). No 11+ nada muda.",
+    "Se o jogo fechar sozinho no seu Android 9 ou 10, abra Ajustes e toque em \"Mandar relatório\": isso ajuda a corrigir."
+  ],
+  "data": "2026-10-27"
 }
