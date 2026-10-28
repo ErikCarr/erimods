@@ -1,16 +1,15 @@
 {
-  "versao": "1.1.1",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.1.1/EriMods-v1.1.1.exe",
-  "sha256": "e8ab5f9fb3c6bc9069ff953c2394b3edc593c25cbae90764e2d9aec693bf121a",
-  "tamanho": 68157848,
+  "versao": "1.1.2",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.1.2/EriMods-v1.1.2.exe",
+  "sha256": "c2293e8f29ec3ff261597af957f03a565dc0cf74296a7b94d82eb578e92e4af6",
+  "tamanho": 68166040,
   "notas": [
-    "Abrir o jogo sem a Steam (computador de testes), na caixa do Modo Dev",
-    "Sem a Steam: a caixa de erro do login fecha sozinha (o boneco não anda mais sozinho)"
+    "Corrige mod sumindo do perfil sem aviso. O JOGAR avisa quando um mod ligado esta sem arquivo na biblioteca, a linha do mod ganha a etiqueta \"arquivo faltando\", perfis editados por fora sao relidos, e a Biblioteca oferece por o mod no perfil ao importar."
   ],
-  "data": "2026-10-21",
+  "data": "2026-10-28",
   "loja": "https://loja.erikcarr.workers.dev",
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
-  "assinatura": "MEUCIC/W1/Om8aTSsG7MvUtHebhx9ECYIsZUvspXfvjRJU1QAiEAkiWCONhClXt7Fquo1bvynXnfxbK4zFrC0uwKBdoxZg4=",
+  "assinatura": "MEQCIFqeAJ3ciIbEpT6PQbFY2TAX66CWR63zuj0eYiE3MStyAiApDyt+Bsipl8YDGeB49o8mmllrDKcDOxwr6lMdv2zo3Q==",
   "erikloader": {
     "versao": "0.12.3",
     "url": "https://github.com/ErikCarr/modrik/releases/download/erikloader-v0.12.3/ErikLoader.dll",
