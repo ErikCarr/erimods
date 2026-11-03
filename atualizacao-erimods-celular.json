@@ -1,11 +1,15 @@
 {
-  "versao": "1.3.0",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.3.0/EriMods-Celular-v1.3.0.apk",
-  "sha256": "ef3233e4f478a01d778964692e5f9281cdd42a0856c27903effb96dc05e91b11",
-  "tamanho": 81968796,
+  "versao": "1.9.0",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.9.0/EriMods-Celular-v1.9.0.apk",
+  "sha256": "6f49377d9951e2ce8179749c797d35d40abd988935fa249ffed6b8ef57eff778",
+  "tamanho": 82231196,
   "notas": [
-    "Agora funciona no Android 9 e no Android 10 (antes só no 11 ou mais novo). No 11+ nada muda.",
-    "Se o jogo fechar sozinho no seu Android 9 ou 10, abra Ajustes e toque em \"Mandar relatório\": isso ajuda a corrigir."
+    "Entre com a sua conta EriMods (Discord) e leve seus perfis do PC para o celular e de volta.",
+    "Novo: seção \"Jogo mais leve\" na aba Conta, com mais FPS, joystick flutuante e botões do tamanho do dedo em todos os perfis.",
+    "O jogo abre bem mais rápido na primeira vez, com o preparo pronto baixado da internet.",
+    "Entre também com a sua conta do Among Us (Google) para jogar com seus amigos e cosméticos.",
+    "Mods com voz agora pedem o microfone, e a tela larga (Fold aberto) ganhou um layout próprio.",
+    "Motor EriKore atualizado."
   ],
-  "data": "2026-10-27"
+  "data": "2026-11-03"
 }
