@@ -1,15 +1,12 @@
 {
-  "versao": "1.9.0",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.9.0/EriMods-Celular-v1.9.0.apk",
-  "sha256": "6f49377d9951e2ce8179749c797d35d40abd988935fa249ffed6b8ef57eff778",
+  "versao": "1.10.0",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.10.0/EriMods-Celular-v1.10.0.apk",
+  "sha256": "d6b80656bd17c9a9b056ea3455367e3209b48f3befb7239e1e74fd826f56e480",
   "tamanho": 82231196,
   "notas": [
-    "Entre com a sua conta EriMods (Discord) e leve seus perfis do PC para o celular e de volta.",
-    "Novo: seção \"Jogo mais leve\" na aba Conta, com mais FPS, joystick flutuante e botões do tamanho do dedo em todos os perfis.",
-    "O jogo abre bem mais rápido na primeira vez, com o preparo pronto baixado da internet.",
-    "Entre também com a sua conta do Among Us (Google) para jogar com seus amigos e cosméticos.",
-    "Mods com voz agora pedem o microfone, e a tela larga (Fold aberto) ganhou um layout próprio.",
-    "Motor EriKore atualizado."
+    "Botões de ação num tamanho melhor: agora começam em 100% (quem estava em 115% passa para 100% uma vez).",
+    "Tamanho dos botões na aba Conta em P, M, G e GG, igual ao do jogo.",
+    "Botões + e − ao lado do menu do jogo para aumentar ou diminuir os botões na hora (dá para desligar na Conta)."
   ],
-  "data": "2026-11-03"
+  "data": "2026-11-07"
 }
