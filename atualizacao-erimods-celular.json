@@ -1,12 +1,8 @@
 {
-  "versao": "1.10.0",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.10.0/EriMods-Celular-v1.10.0.apk",
-  "sha256": "d6b80656bd17c9a9b056ea3455367e3209b48f3befb7239e1e74fd826f56e480",
-  "tamanho": 82231196,
-  "notas": [
-    "Botões de ação num tamanho melhor: agora começam em 100% (quem estava em 115% passa para 100% uma vez).",
-    "Tamanho dos botões na aba Conta em P, M, G e GG, igual ao do jogo.",
-    "Botões + e − ao lado do menu do jogo para aumentar ou diminuir os botões na hora (dá para desligar na Conta)."
-  ],
+  "versao": "1.11.1",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.11.1/EriMods-Celular-v1.11.1.apk",
+  "sha256": "1510f8250693fb01df55fa1fc7cba9c518f48b65908dc5f12f9b84eea0e75407",
+  "tamanho": 82247649,
+  "notas": [],
   "data": "2026-11-07"
 }
