@@ -1,17 +1,16 @@
 {
-  "versao": "1.3.1",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.3.1/EriMods-v1.3.1.exe",
-  "sha256": "2721df9f86ceaf552eefa62a7ad75ea753625f2a79d7a32be1d7e34fda1c6fe7",
-  "tamanho": 68280728,
+  "versao": "1.3.2",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.3.2/EriMods-v1.3.2.exe",
+  "sha256": "4385503a2e62849781dc5a91cd270d941f0f94338dcfe6f52433beca6cc47ba4",
+  "tamanho": 68284824,
   "notas": [
-    "Conta do Discord no EriMods (a mesma do EriK Launcher): Minha conta, nome, foto e nível",
-    "Perfis com ☁: seguem a sua conta e dá para trazer em outro PC",
-    "Mandar feedback dentro do jogo (bug, ideia ou elogio), escolhendo sobre qual mod"
+    "Aviso no JOGAR quando um mod já deu erro com esta versão do jogo (dá para desligar e jogar)",
+    "Corrige a janela do EriMods que travava por até 24 s em PCs lentos"
   ],
   "data": "2026-11-08",
   "loja": "https://loja.erikcarr.workers.dev",
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
-  "assinatura": "MEUCIQC18bqp+uvigGgndUVfEH81OJCMasHaCTSM3g35OID2AgIgGC9uUmkGYk0N8rk4x2diMOfIrNac2EFfMBB08M/gdC8=",
+  "assinatura": "MEUCIQDJCQ8kVyDC+5gjkfHeD/q2qZN2LtFW9NDBHRzORM67kQIgZch8perFl/gZ68pizt6hKyDRVBwfI83LFJA4jLP8JiI=",
   "erikloader": {
     "versao": "0.12.3",
     "url": "https://github.com/ErikCarr/modrik/releases/download/erikloader-v0.12.3/ErikLoader.dll",
