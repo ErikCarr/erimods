@@ -1,16 +1,15 @@
 {
-  "versao": "1.3.2",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.3.2/EriMods-v1.3.2.exe",
-  "sha256": "4385503a2e62849781dc5a91cd270d941f0f94338dcfe6f52433beca6cc47ba4",
-  "tamanho": 68284824,
+  "versao": "1.3.4",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.3.4/EriMods-v1.3.4.exe",
+  "sha256": "38b181d657f0e9feaca0b6c8623bab93e359b7eb9f908fb095371b7c3fd18912",
+  "tamanho": 68288920,
   "notas": [
-    "Aviso no JOGAR quando um mod já deu erro com esta versão do jogo (dá para desligar e jogar)",
-    "Corrige a janela do EriMods que travava por até 24 s em PCs lentos"
+    "Aba Salas, mod que falta (nem na biblioteca nem na loja)"
   ],
-  "data": "2026-11-08",
+  "data": "2026-11-12",
   "loja": "https://loja.erikcarr.workers.dev",
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
-  "assinatura": "MEUCIQDJCQ8kVyDC+5gjkfHeD/q2qZN2LtFW9NDBHRzORM67kQIgZch8perFl/gZ68pizt6hKyDRVBwfI83LFJA4jLP8JiI=",
+  "assinatura": "MEQCIDh6gRReUaoIr2kpfB+WcxvA3xWX1Hq5LO2Ek7dUK+sJAiBLOwzhxEwdpPeK0rSWrtkm554OKJXyGni1udqls0fCFA==",
   "erikloader": {
     "versao": "0.12.3",
     "url": "https://github.com/ErikCarr/modrik/releases/download/erikloader-v0.12.3/ErikLoader.dll",
