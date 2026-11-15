@@ -1,15 +1,18 @@
 {
-  "versao": "1.3.4",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.3.4/EriMods-v1.3.4.exe",
-  "sha256": "38b181d657f0e9feaca0b6c8623bab93e359b7eb9f908fb095371b7c3fd18912",
-  "tamanho": 68288920,
+  "versao": "1.4.0",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.4.0/EriMods-v1.4.0.exe",
+  "sha256": "3463ff92713d4fa5f8383278cbd5d229add2e26b38a210aa7042c135a8f98f03",
+  "tamanho": 68293016,
   "notas": [
-    "Aba Salas, mod que falta (nem na biblioteca nem na loja)"
+    "Suas salas online aparecem sozinhas na aba Salas (mural ligado por padrão)",
+    "No lobby, a faixa \"No mural do EriMods · Tirar\" tira a sala do mural na hora",
+    "Sala de mod de história não vai para o mural",
+    "Botão Feedback das Definições menor e fora do painel"
   ],
-  "data": "2026-11-12",
+  "data": "2026-11-15",
   "loja": "https://loja.erikcarr.workers.dev",
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
-  "assinatura": "MEQCIDh6gRReUaoIr2kpfB+WcxvA3xWX1Hq5LO2Ek7dUK+sJAiBLOwzhxEwdpPeK0rSWrtkm554OKJXyGni1udqls0fCFA==",
+  "assinatura": "MEUCIFF1EFICvoiKGT0e9SXg/7q0YKjuhw4X1waoFCshA74BAiEA95/S0e4/v2SBN7ZZuX4b0IMJrWYcz4DqX3Xt7ugvSN8=",
   "erikloader": {
     "versao": "0.12.3",
     "url": "https://github.com/ErikCarr/modrik/releases/download/erikloader-v0.12.3/ErikLoader.dll",
