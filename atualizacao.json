@@ -1,18 +1,20 @@
 {
-  "versao": "1.4.0",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.4.0/EriMods-v1.4.0.exe",
-  "sha256": "3463ff92713d4fa5f8383278cbd5d229add2e26b38a210aa7042c135a8f98f03",
-  "tamanho": 68293016,
+  "versao": "1.5.0",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.5.0/EriMods-v1.5.0.exe",
+  "sha256": "5f0b27d69e5f43de4f6e68a7c1b3edf53c5a551852d514ca1560fa2269b4b208",
+  "tamanho": 68317592,
   "notas": [
-    "Suas salas online aparecem sozinhas na aba Salas (mural ligado por padrão)",
-    "No lobby, a faixa \"No mural do EriMods · Tirar\" tira a sala do mural na hora",
-    "Sala de mod de história não vai para o mural",
-    "Botão Feedback das Definições menor e fora do painel"
+    "Among Us da Epic Games no JOGAR",
+    "Achar o Among Us da Epic",
+    "\"Abrir sem mods\" com a Epic",
+    "Erros da loja no diário",
+    "Erros da conta do Discord no diário",
+    "Janelas de erro não empilham mais (1.4.1)"
   ],
-  "data": "2026-11-15",
+  "data": "2026-11-17",
   "loja": "https://loja.erikcarr.workers.dev",
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
-  "assinatura": "MEUCIFF1EFICvoiKGT0e9SXg/7q0YKjuhw4X1waoFCshA74BAiEA95/S0e4/v2SBN7ZZuX4b0IMJrWYcz4DqX3Xt7ugvSN8=",
+  "assinatura": "MEYCIQCc1kkk89S7B1C7URaxqh7/As52qxAkkTaD3JvtAHLTPQIhAINsRLZ1ftxjy6zuGGgG4Y4/bwSihUYaGeQbRtqWcE0U",
   "erikloader": {
     "versao": "0.12.3",
     "url": "https://github.com/ErikCarr/modrik/releases/download/erikloader-v0.12.3/ErikLoader.dll",
