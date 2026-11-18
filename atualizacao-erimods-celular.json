@@ -1,17 +1,11 @@
 {
-  "versao": "1.18.0",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.18.0/EriMods-Celular-v1.18.0.apk",
-  "sha256": "35ca79fa0c46d540c5ad52e77c2de6b584cf2ecfb8a67488673018490c39fa04",
-  "tamanho": 82477303,
+  "versao": "1.19.0",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.19.0/EriMods-Celular-v1.19.0.apk",
+  "sha256": "c53e36cd0f807d35f681c211fce0f2aaa755f981540cea10c7fc127e25b6b2e0",
+  "tamanho": 82493687,
   "notas": [
-    "Mapas do ErikMapas na aba Mods: veja os mapas da loja e baixe para um perfil",
-    "\"Tenho um código\": digite o código de 6 letras e números e abra o mapa direto",
-    "Baixar um mapa já escolhe ele como o mapa do ErikMapas (e põe o ErikMapas no perfil se faltar)",
-    "Aba Apps: instale e atualize pelo celular os apps que funcionam com os mods (ex.: Editor de Mapas)",
-    "Mods embutidos pela loja: o EriK Performance e o Replay chegam e se atualizam sozinhos",
-    "Perfis na conta num cartão compacto, com a lista numa folha de baixo para cima",
-    "Motor novo (EriKore 1.8.3): correção para celulares Xiaomi/POCO/Redmi parados em \"Iniciando o motor\"",
-    "\"Relatar este problema\" direto na tela de carregamento quando o jogo demora ou o motor falha"
+    "Quem cria a sala vê um selo no topo do lobby com quem está sem mod ou com mod a mais. Tocando nele abre a Conferência de mods, com o nome do mod e o botão Avisar no chat.",
+    "Ninguém vê mais o código do aparelho dos outros jogadores."
   ],
   "data": "2026-11-18"
 }
