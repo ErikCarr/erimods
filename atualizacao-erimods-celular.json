@@ -1,16 +1,17 @@
 {
-  "versao": "1.14.0",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.14.0/EriMods-Celular-v1.14.0.apk",
-  "sha256": "5ed152b86f29a3d75c38497ab775c0f386716e700438487e5f91af579cadab72",
-  "tamanho": 82378851,
+  "versao": "1.18.0",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.18.0/EriMods-Celular-v1.18.0.apk",
+  "sha256": "35ca79fa0c46d540c5ad52e77c2de6b584cf2ecfb8a67488673018490c39fa04",
+  "tamanho": 82477303,
   "notas": [
-    "Suas salas online aparecem no mural (ligado por padrão; desligue no ⋮ do perfil ou em \"Tirar\" no lobby)",
-    "Botão Entrar nas salas: o app monta o perfil com os mods da sala e abre o jogo já dentro dela",
-    "Servidor Bllr Brasil já vem na lista, ligado",
-    "Aviso antes de jogar com mod que não funciona no celular (ex.: Reactor)",
-    "Motor novo: correção para celulares Xiaomi/POCO com Android 13 que ficavam parados em \"Iniciando o motor\"",
-    "EriK Performance 0.9.2: botão \"VOLTAR 100%\" e o + e o − sem fechar o menu",
-    "Botão Feedback das Definições menor e fora do painel"
+    "Mapas do ErikMapas na aba Mods: veja os mapas da loja e baixe para um perfil",
+    "\"Tenho um código\": digite o código de 6 letras e números e abra o mapa direto",
+    "Baixar um mapa já escolhe ele como o mapa do ErikMapas (e põe o ErikMapas no perfil se faltar)",
+    "Aba Apps: instale e atualize pelo celular os apps que funcionam com os mods (ex.: Editor de Mapas)",
+    "Mods embutidos pela loja: o EriK Performance e o Replay chegam e se atualizam sozinhos",
+    "Perfis na conta num cartão compacto, com a lista numa folha de baixo para cima",
+    "Motor novo (EriKore 1.8.3): correção para celulares Xiaomi/POCO/Redmi parados em \"Iniciando o motor\"",
+    "\"Relatar este problema\" direto na tela de carregamento quando o jogo demora ou o motor falha"
   ],
-  "data": "2026-11-15"
+  "data": "2026-11-18"
 }
