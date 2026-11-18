@@ -1,81 +1,288 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-app="erimods" data-aparelho="android">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>EriMods Celular — mods de Among Us no Android</title>
-<meta name="description" content="Baixe o EriMods Celular, o app de mods de Among Us do Erik Carr para Android: perfis, loja de mods e o motor que abre o jogo com os mods.">
+<title>EriMods Celular — Among Us com mods no Android</title>
+<meta name="description" content="Among Us com mods do seu jeito, no PC e no celular Android. Grátis.">
+<meta property="og:title" content="EriMods Celular — Among Us com mods no Android">
+<meta property="og:description" content="Among Us com mods do seu jeito, no PC e no celular Android. Grátis.">
+<meta property="og:image" content="img/erimods.png">
+<link rel="icon" href="img/erimods.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Lilita+One&display=swap" rel="stylesheet">
 <style>
-  :root { --bg:#f6f4ef; --card:#ffffff; --linha:#e3ded3; --texto:#1d1d1d; --mudo:#5f5b54; --destaque:#e8833a; --destaque-escuro:#b85f1d; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#0e1118; --card:#161b27; --linha:#262e45; --texto:#eef1f8; --mudo:#9aa1b6; --destaque:#f0954e; --destaque-escuro:#f5b37f; } }
+  /* Página de download (modelo único EriK Launcher / EriMods, gerado por VideoEcossistema/pagina-download/gerar_paginas.py).
+     ?app=launcher|erimods  ?aparelho=pc|android|iphone (sem isso, descobre pelo navegador) */
+  :root {
+    --cor: #D81830; --cor-escura: #7a0d1c; --cor-clara: #ff5a70;
+    --fundo: #0d1120; --fundo2: #141a2e; --cartao: #1a2139; --borda: #2a3456;
+    --txt: #f4f6fb; --sub: #a9b3cf; --ok: #3ad17a;
+  }
   * { box-sizing: border-box; }
-  body { margin:0; background:var(--bg); color:var(--texto); font-family:"Segoe UI", system-ui, sans-serif; line-height:1.55; }
-  main { max-width:880px; margin:0 auto; padding:40px 16px 56px; }
-  header { display:flex; align-items:center; gap:14px; }
-  header img { width:56px; height:56px; }
-  h1 { margin:0; font-size:34px; }
-  .sub { color:var(--mudo); margin:6px 0 0; font-size:16px; }
-  .baixar { display:inline-flex; align-items:center; gap:10px; background:var(--destaque); color:#fff; font-weight:700; font-size:18px; text-decoration:none; border-radius:12px; padding:14px 22px; margin:26px 0 8px; }
-  .baixar:hover { filter:brightness(1.05); }
-  .info { color:var(--mudo); font-size:14px; }
-  .outro { margin-top:10px; font-size:14.5px; }
-  h2 { font-size:20px; margin:36px 0 12px; }
-  .passos { display:grid; grid-template-columns:repeat(auto-fit, minmax(190px, 1fr)); gap:12px; }
-  .passo { background:var(--card); border:1px solid var(--linha); border-radius:12px; padding:14px; font-size:14.5px; color:var(--mudo); }
-  .passo b { display:block; color:var(--texto); font-size:15.5px; margin-bottom:4px; }
-  .aviso { background:var(--card); border:1px solid var(--linha); border-left:4px solid var(--destaque); border-radius:0 10px 10px 0; padding:12px 14px; font-size:14.5px; color:var(--mudo); margin-bottom:10px; }
-  ul.novidades { margin:6px 0 0 20px; padding:0; color:var(--mudo); font-size:14.5px; }
-  footer { margin-top:44px; color:var(--mudo); font-size:13px; }
-  a { color:var(--destaque-escuro); }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--fundo); color: var(--txt); font: 18px/1.5 'Atkinson Hyperlegible', system-ui, sans-serif; }
+  a { color: inherit; }
+  .topo { background: radial-gradient(1200px 500px at 15% -10%, color-mix(in srgb, var(--cor) 45%, transparent), transparent 70%), linear-gradient(180deg, var(--fundo2), var(--fundo)); border-bottom: 1px solid var(--borda); }
+  .largura { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+  .heroi { display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; align-items: center; padding-top: 48px; padding-bottom: 56px; }
+  .marca { display: flex; gap: 22px; align-items: center; }
+  .icone { width: 128px; height: 128px; border-radius: 30px; flex: none; box-shadow: 0 0 0 4px color-mix(in srgb, var(--cor) 35%, transparent), 0 18px 50px color-mix(in srgb, var(--cor) 45%, transparent); }
+  h1 { font: 64px/1 'Lilita One', sans-serif; margin: 0; letter-spacing: .5px; }
+  .frase { font-size: 24px; line-height: 1.35; margin: 20px 0 0; }
+  .frase b { color: var(--cor-clara); }
+  .selos { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+  .selo { background: var(--cartao); border: 1px solid var(--borda); border-radius: 999px; padding: 6px 14px; font-size: 15px; color: var(--sub); }
+  .selo b { color: var(--txt); }
+
+  .baixar-caixa { background: var(--cartao); border: 1px solid var(--borda); border-radius: 22px; padding: 24px; box-shadow: 0 20px 60px rgba(0,0,0,.35); }
+  .aparelho { font-size: 15px; color: var(--sub); margin-bottom: 14px; display: flex; gap: 8px; align-items: center; }
+  .aparelho .ponto { width: 10px; height: 10px; border-radius: 50%; background: var(--ok); }
+  .botao { display: flex; align-items: center; gap: 16px; text-decoration: none; border-radius: 16px; padding: 16px 20px; min-height: 76px; margin-bottom: 12px; border: 2px solid var(--cor); transition: transform .12s; }
+  .botao:hover { transform: translateY(-2px); }
+  .botao .sim { width: 42px; height: 42px; flex: none; }
+  .botao .t1 { font: 26px/1.1 'Lilita One', sans-serif; display: block; }
+  .botao .t2 { font-size: 15px; opacity: .85; display: block; margin-top: 3px; }
+  .botao.principal { background: var(--cor); color: #fff; box-shadow: 0 10px 30px color-mix(in srgb, var(--cor) 50%, transparent); }
+  .botao.outro { background: color-mix(in srgb, var(--cor) 12%, var(--fundo2)); color: var(--txt); }
+  .aviso-iphone { display: none; background: #2b2410; border: 1px solid #6b5a1a; color: #ffe08a; border-radius: 14px; padding: 12px 16px; font-size: 16px; margin-bottom: 12px; }
+  .requisito { font-size: 14px; color: var(--sub); margin-top: 6px; }
+
+  section { padding: 56px 0 8px; }
+  h2 { font: 40px/1.1 'Lilita One', sans-serif; margin: 0 0 8px; }
+  .h2sub { color: var(--sub); margin: 0 0 26px; font-size: 19px; }
+
+  .qual { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .opcao { background: var(--cartao); border: 2px solid var(--borda); border-radius: 20px; padding: 22px; display: flex; gap: 16px; align-items: flex-start; text-decoration: none; }
+  .opcao img { width: 64px; height: 64px; border-radius: 16px; flex: none; }
+  .opcao .p { font: 26px/1.15 'Lilita One', sans-serif; }
+  .opcao .r { color: var(--sub); margin-top: 6px; font-size: 17px; }
+  .opcao .ir { white-space: nowrap; display: inline-block; margin-top: 12px; font-weight: 700; padding: 8px 14px; border-radius: 10px; font-size: 16px; }
+  .opcao.aqui { border-color: var(--cor); background: color-mix(in srgb, var(--cor) 10%, var(--cartao)); }
+  .opcao.aqui .ir { background: var(--cor); color: #fff; }
+  .opcao.outra .ir { border: 2px solid var(--borda); }
+
+  .passos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  .passo { background: var(--cartao); border: 1px solid var(--borda); border-radius: 20px; overflow: hidden; }
+  .passo img { width: 100%; aspect-ratio: 16/10; object-fit: cover; object-position: top; display: block; border-bottom: 1px solid var(--borda); }
+  .passo .c { padding: 16px 18px 20px; }
+  .num { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: var(--cor); color: #fff; font: 22px 'Lilita One', sans-serif; margin-right: 8px; }
+  .passo .tt { font: 24px/1.2 'Lilita One', sans-serif; display: flex; align-items: center; }
+  .passo p { margin: 10px 0 0; color: var(--sub); font-size: 17px; }
+
+  .grade { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  .item { background: var(--cartao); border: 1px solid var(--borda); border-radius: 20px; padding: 20px; border-top: 5px solid var(--c, var(--cor)); }
+  .item.largo { grid-column: span 2; }
+  .item.inteiro { grid-column: 1 / -1; }
+  .item .cab { display: flex; gap: 12px; align-items: center; }
+  .item .cab img { width: 48px; height: 48px; border-radius: 12px; }
+  .item h3 { font: 26px/1.1 'Lilita One', sans-serif; margin: 0; }
+  .item p { color: var(--sub); margin: 10px 0 0; font-size: 17px; }
+  .item .print { width: 100%; aspect-ratio: 16/9; object-fit: cover; object-position: top; border-radius: 12px; margin-top: 14px; border: 1px solid var(--borda); display: block; }
+  .mods { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+  .mods img { width: 64px; height: 64px; border-radius: 14px; }
+  .gratis { display: inline-block; background: var(--ok); color: #06210f; font: 18px 'Lilita One', sans-serif; padding: 2px 10px; border-radius: 8px; margin-left: 6px; vertical-align: middle; }
+
+  details { background: var(--cartao); border: 1px solid var(--borda); border-radius: 16px; padding: 16px 20px; margin: 40px 0 0; }
+  summary { cursor: pointer; font-weight: 700; font-size: 18px; min-height: 40px; display: flex; align-items: center; }
+  details ul { color: var(--sub); margin: 10px 0 0; padding-left: 22px; }
+  footer { color: var(--sub); font-size: 15px; padding: 40px 0 60px; text-align: center; }
+
+  @media (max-width: 860px) {
+    .heroi { grid-template-columns: 1fr; gap: 26px; padding-top: 30px; padding-bottom: 34px; }
+    .icone { width: 92px; height: 92px; border-radius: 22px; }
+    h1 { font-size: 44px; }
+    .frase { font-size: 21px; margin-top: 16px; }
+    .qual, .passos, .grade { grid-template-columns: 1fr; }
+    .item.largo, .item.inteiro { grid-column: auto; }
+    h2 { font-size: 32px; }
+    section { padding-top: 42px; }
+    .botao .t1 { font-size: 23px; }
+  }
 </style>
 </head>
 <body>
-<main>
-  <header>
-    <img src="https://raw.githubusercontent.com/ErikCarr/erimods/main/icone.png" alt="" onerror="this.remove()">
+<header class="topo">
+  <div class="largura heroi">
     <div>
-      <h1>EriMods Celular</h1>
-      <p class="sub">Os mods de Among Us do Erik Carr no Android. Perfis de mods, loja de mods e o jogo da Play Store intocado.</p>
+      <div class="marca">
+        <img class="icone" id="icone" alt="">
+        <h1 id="nome"></h1>
+      </div>
+      <p class="frase" id="frase"></p>
+      <div class="selos" id="selos"></div>
     </div>
-  </header>
-
-  <a class="baixar" id="baixar" href="https://github.com/ErikCarr/erimods/releases">⬇ Baixar o EriMods Celular (Android)</a>
-  <div class="info" id="info">Precisa de Android 11 ou mais novo e do Among Us da Play Store.</div>
-  <div class="outro">No computador? <a href="./">Baixe o EriMods para Windows</a>.</div>
-  <div id="novidades"></div>
-
-  <h2>Como usar</h2>
-  <div class="passos">
-    <div class="passo"><b>1. Baixe pelo celular</b>Toque no botão acima no navegador do celular. O arquivo é um .apk (o app fora da Play Store).</div>
-    <div class="passo"><b>2. Instale</b>Abra o arquivo baixado. Se o Android pedir, permita "instalar apps desta fonte" para o navegador e toque em <i>Instalar</i>.</div>
-    <div class="passo"><b>3. Dê a permissão</b>Ao abrir, toque em <i>Dar permissão</i> e ligue o acesso aos arquivos: é onde ficam os perfis e os mods.</div>
-    <div class="passo"><b>4. Perfis e loja</b>Crie um perfil e adicione mods da aba <i>Loja</i>. Para os liberados só para você, mande o seu código (em Ajustes) para o Erik.</div>
-    <div class="passo"><b>5. Jogue</b>Toque em <i>JOGAR</i>. O Among Us da Play Store não é alterado: os mods ficam só no perfil.</div>
+    <div class="baixar-caixa">
+      <div class="aparelho"><span class="ponto"></span><span id="aparelho-txt"></span></div>
+      <div class="aviso-iphone" id="aviso-iphone">No iPhone ainda não funciona. Dá para usar no PC ou num celular Android.</div>
+      <div id="botoes"></div>
+    </div>
   </div>
+</header>
 
-  <h2>Bom saber</h2>
-  <div class="aviso">O EriMods Celular se atualiza sozinho: quando sai uma versão nova, ele avisa ao abrir. Seus perfis ficam guardados na pasta EriMods do celular.</div>
-  <div class="aviso">O EriMods Celular conta, sem dados pessoais, quando ele abre, quando você joga por ele e quando se atualiza (a versão e um código do aparelho, nada de nome, arquivo ou IP). Para desligar: Ajustes → Opções avançadas → Contar uso do app.</div>
+<main class="largura">
+  <section>
+    <h2>Qual eu baixo?</h2>
+    <p class="h2sub">São dois apps diferentes. Os dois são de graça.</p>
+    <div class="qual" id="qual"></div>
+  </section>
 
-  <footer>EriMods Celular · criado por ErikCarr · <a href="https://github.com/ErikCarr/erimods/releases">todas as versões</a></footer>
+  <section>
+    <h2>Como usar</h2>
+    <p class="h2sub" id="como-sub"></p>
+    <div class="passos" id="passos"></div>
+  </section>
+
+  <section>
+    <h2 id="dentro-tit"></h2>
+    <p class="h2sub" id="dentro-sub"></p>
+    <div class="grade" id="grade"></div>
+  </section>
+
+  <details id="novidades"><summary>Ver as novidades da versão</summary><ul id="novidades-lista"></ul></details>
+
+  <footer id="rodape"></footer>
 </main>
+
 <script>
-  // versão, tamanho e novidades vêm do atualizacao-erimods-celular.json (o mesmo que o app lê para se atualizar)
-  fetch('atualizacao-erimods-celular.json?t=' + Date.now()).then(r => r.json()).then(m => {
-    if (!m || !m.versao || !m.url) return;
-    const a = document.getElementById('baixar');
-    a.href = m.url;
-    a.textContent = '⬇ Baixar o EriMods Celular ' + m.versao + ' (Android)';
-    const mb = m.tamanho ? Math.round(m.tamanho / 1048576) + ' MB · ' : '';
-    document.getElementById('info').textContent = mb + (m.data ? 'versão de ' + m.data.split('-').reverse().join('/') + ' · ' : '') + 'precisa de Android 11 ou mais novo e do Among Us da Play Store.';
-    if (Array.isArray(m.notas) && m.notas.length) {
-      const div = document.getElementById('novidades');
-      const t = document.createElement('div'); t.className = 'info'; t.style.marginTop = '14px'; t.textContent = 'Novidades da ' + m.versao + ':';
-      const ul = document.createElement('ul'); ul.className = 'novidades';
-      m.notas.slice(0, 6).forEach(n => { const li = document.createElement('li'); li.textContent = n; ul.appendChild(li); });
-      div.append(t, ul);
+const SIM = {
+  windows: '<svg class="sim" viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.5 10.5 4.5v7H3zM11.5 4.3 21 3v8.5h-9.5zM3 12.5h7.5v7L3 18.5zM11.5 12.5H21V21l-9.5-1.3z"/></svg>',
+  android: '<svg class="sim" viewBox="0 0 24 24" fill="currentColor"><path d="M7.2 8.5h9.6c.6 0 1 .4 1 1V17c0 .6-.4 1-1 1h-1v2.3a1.2 1.2 0 0 1-2.4 0V18h-2.8v2.3a1.2 1.2 0 0 1-2.4 0V18h-1c-.6 0-1-.4-1-1V9.5c0-.6.4-1 1-1Zm-2.4 0a1.2 1.2 0 0 1 1.2 1.2v5.1a1.2 1.2 0 0 1-2.4 0V9.7a1.2 1.2 0 0 1 1.2-1.2Zm14.4 0a1.2 1.2 0 0 1 1.2 1.2v5.1a1.2 1.2 0 0 1-2.4 0V9.7a1.2 1.2 0 0 1 1.2-1.2ZM8.4 3.2l1 1.6A5.8 5.8 0 0 1 12 4.2c.9 0 1.8.2 2.6.6l1-1.6a.4.4 0 0 1 .7.4l-1 1.6a5.5 5.5 0 0 1 2.5 3.6H6.2a5.5 5.5 0 0 1 2.5-3.6l-1-1.6a.4.4 0 0 1 .7-.4ZM9.6 6.3a.7.7 0 1 0 0 1.4.7.7 0 0 0 0-1.4Zm4.8 0a.7.7 0 1 0 0 1.4.7.7 0 0 0 0-1.4Z"/></svg>'
+};
+
+const APPS = {
+  launcher: {
+    nome: 'EriK Launcher', icone: 'img/eriklauncher.png',
+    cor: '#D81830', corClara: '#ff5a70',
+    frase: 'Jogue Among Us com mod <b>junto com o Erik Carr</b>. Ele escolhe o mod, você só aperta <b>JOGAR</b>.',
+    selos: ['<b>Grátis</b>', 'PC e Android', 'Não mexe no seu jogo'],
+    manifesto: 'eriklauncher.json',
+    exemplo: { pc: { versao: '1.45.0', tamanho: 100663296, data: '2026-11-18', notas: ['Quem cria a sala vê o selo "Conferência de mods"', 'Tocando nele, a lista de quem está sem o mod e o botão Avisar no chat'] },
+               android: { versao: '1.45.0', tamanho: 83886080, data: '2026-11-18', notas: [] } },
+    requisito: { pc: 'Windows · Among Us da Steam ou da Epic', android: 'Android 9 ou mais novo · celular de 64 bits' },
+    comoSub: 'Três passos. Na primeira vez demora um pouco mais.',
+    passos: [
+      ['Baixe e abra', 'Ele acha o seu Among Us sozinho.', 'img/passo-l1.png'],
+      ['Espere a sessão abrir', 'Deixe o app aberto: quando o Erik Carr abrir a sessão, o JOGAR acende sozinho.', 'img/passo-l2.png'],
+      ['Aperte JOGAR', 'O jogo abre já com o mod da sessão.', 'img/passo-l3.png']
+    ],
+    dentroTit: 'O que tem dentro', dentroSub: 'Além do JOGAR.',
+    itens: [
+      { t: 'Aviso quando o Erik Carr for jogar', p: 'No celular, ligue em Ajustes e chega uma notificação na hora em que ele começar.' },
+      { t: 'Perfil e nível', p: 'Entre com o Discord: foto, fundo, nível e quantas partidas você jogou com o Erik Carr.' },
+      { t: 'Deu problema? Relatar', p: 'Um toque e o relato chega ao Erik Carr, já com os registros. É assim que os problemas são consertados.' },
+      { t: 'Ideias da galera', p: 'Mande ideia de mod, a galera dá 👍 e, se virar mod, ganha ⭐.', print: 'img/comunidade.png', inteiro: true }
+    ],
+    rodape: 'EriK Launcher · feito por Erik Carr · <a href="https://github.com/ErikCarr/eriklauncher/releases">todas as versões</a>'
+  },
+  erimods: {
+    nome: 'EriMods', icone: 'img/erimods.png',
+    cor: '#D86018', corClara: '#ff9a52',
+    frase: 'Among Us com mods <b>do seu jeito</b>, no PC e no celular. Você escolhe os mods e joga com quem quiser.',
+    selos: ['<b>Grátis</b>', 'PC e Android', 'Não mexe no seu jogo'],
+    manifesto: { pc: 'atualizacao.json', android: 'atualizacao-erimods-celular.json' },
+    exemplo: { pc: { versao: '1.8.1', tamanho: 68964760, data: '2026-11-18', notas: ['Área Mapas na Loja', '"Tenho um código" para achar um mapa', 'Abrir rápido'] },
+               android: { versao: '1.19.0', tamanho: 82477303, data: '2026-11-18', notas: [] } },
+    requisito: { pc: 'Windows · Among Us da Steam ou da Epic', android: 'Android 9 ou mais novo · Among Us da Play Store' },
+    comoSub: 'Monte o seu perfil e jogue.',
+    passos: [
+      ['Baixe e abra', 'No celular, dê a permissão de arquivos na primeira vez.', 'img/passo-e3.png'],
+      ['Escolha os mods na Loja', 'Mods e mapas, todos de graça. Cada perfil tem os seus.', 'img/passo-e2.png'],
+      ['Aperte JOGAR', 'O jogo abre com os mods do perfil. Ou entre numa sala da aba Salas.', 'img/mapa-print.jpg']
+    ],
+    dentroTit: 'O que vem junto', dentroSub: 'Tudo de graça, no PC e no celular.',
+    itens: [
+      { t: 'Loja', gratis: true, p: 'Mods dos vídeos do Erik Carr que você nunca tinha conseguido jogar, e mapas novos.', mods: true, largo: true },
+      { t: 'Salas', p: 'Ache salas abertas com mod e entre em um toque. Se o mod é da Loja, ele baixa sozinho.' },
+      { t: 'ErikPerformance', p: 'Já vem ligado: imagem nítida, até 120 FPS, botões do tamanho e no lugar que você quiser.', print: 'img/performance.png' },
+      { t: 'Replay', icone: 'img/replay.png', c: '#1848D8', p: 'Reveja a partida de cima: quem matou quem, quem votou em quem. Na aba Apps.', print: 'img/replay-print.png' },
+      { t: 'ErikMapas', icone: 'img/erikmapas.png', c: '#18D878', p: 'Jogue mapas novos, crie o seu e publique na Loja. Na aba Apps.', print: 'img/mapa-print.jpg' },
+      { t: 'Deu problema? Relatar', p: 'O relato chega ao Erik Carr já com os registros. É assim que tudo vai melhorando.', inteiro: true }
+    ],
+    rodape: 'EriMods · feito por Erik Carr · <a href="https://github.com/ErikCarr/erimods/releases">todas as versões</a>'
+  }
+};
+
+const q = new URLSearchParams(location.search);
+const chave = q.get('app') || document.documentElement.dataset.app || 'launcher';
+const A = APPS[chave];
+const ua = navigator.userAgent;
+// ordem: ?aparelho= (testes) → iPhone → o que a página pede (celular.html = Android) → o navegador
+let aparelho = q.get('aparelho') || (/iPhone|iPad|iPod/.test(ua) ? 'iphone' : '') || document.documentElement.dataset.aparelho ||
+  (/Android/.test(ua) ? 'android' : 'pc');
+
+document.title = 'Baixar o ' + A.nome;
+const raiz = document.documentElement.style;
+raiz.setProperty('--cor', A.cor); raiz.setProperty('--cor-clara', A.corClara);
+document.getElementById('icone').src = A.icone;
+document.getElementById('nome').textContent = A.nome;
+document.getElementById('frase').innerHTML = A.frase;
+document.getElementById('selos').innerHTML = A.selos.map(s => '<span class="selo">' + s + '</span>').join('');
+document.getElementById('aparelho-txt').textContent =
+  aparelho === 'android' ? 'Você está num celular Android' : aparelho === 'iphone' ? 'Você está num iPhone' : 'Você está no computador';
+if (aparelho === 'iphone') document.getElementById('aviso-iphone').style.display = 'block';
+
+function mb(n) { return n ? Math.round(n / 1048576) + ' MB' : ''; }
+function dataBr(d) { return d ? d.split('-').reverse().join('/') : ''; }
+
+function botoes(dados) {
+  const ordem = aparelho === 'android' ? ['android', 'pc'] : ['pc', 'android'];
+  document.getElementById('botoes').innerHTML = ordem.map((k, i) => {
+    const d = dados[k] || {};
+    const rot = k === 'pc' ? 'Baixar para Windows' : 'Baixar para Android';
+    const info = [d.versao && 'versão ' + d.versao, mb(d.tamanho), dataBr(d.data)].filter(Boolean).join(' · ');
+    const cls = (i === 0 && aparelho !== 'iphone') ? 'principal' : 'outro';
+    return '<a class="botao ' + cls + '" href="' + (d.url || '#') + '">' + SIM[k === 'pc' ? 'windows' : 'android'] +
+      '<span><span class="t1">' + rot + '</span><span class="t2">' + info + '</span></span></a>' +
+      '<div class="requisito" style="margin:-4px 0 14px 4px">' + A.requisito[k] + '</div>';
+  }).join('');
+  const notas = (dados[aparelho === 'android' ? 'android' : 'pc'] || {}).notas || [];
+  const ul = document.getElementById('novidades-lista');
+  ul.innerHTML = notas.map(n => '<li>' + n.replace(/</g, '&lt;') + '</li>').join('');
+  document.getElementById('novidades').style.display = notas.length ? '' : 'none';
+}
+
+function qual() {
+  const L = APPS.launcher, E = APPS.erimods;
+  const cartao = (app, k, pergunta, resposta, link) => {
+    const aqui = k === chave;
+    return '<a class="opcao ' + (aqui ? 'aqui' : 'outra') + '" href="' + (aqui ? '#' : link) + '" style="--cor:' + app.cor + '">' +
+      '<img src="' + app.icone + '" alt=""><div><div class="p">' + pergunta + '</div><div class="r">' + resposta + '</div>' +
+      '<span class="ir">' + (aqui ? 'Você está aqui' : 'Ir para o ' + app.nome + ' →') + '</span></div></a>';
+  };
+  document.getElementById('qual').innerHTML =
+    cartao(L, 'launcher', 'Quer jogar com o Erik Carr?', 'Baixe o EriK Launcher. Ele escolhe o mod, você aperta JOGAR.', 'https://erikcarr.github.io/eriklauncher/') +
+    cartao(E, 'erimods', 'Quer jogar com os seus amigos?', 'Baixe o EriMods. Você escolhe os mods e joga quando quiser.', 'https://erikcarr.github.io/erimods/');
+}
+
+function resto() {
+  document.getElementById('como-sub').textContent = A.comoSub;
+  document.getElementById('passos').innerHTML = A.passos.map((p, i) =>
+    '<div class="passo"><img src="' + p[2] + '" alt=""><div class="c"><div class="tt"><span class="num">' + (i + 1) + '</span>' + p[0] + '</div><p>' + p[1] + '</p></div></div>').join('');
+  document.getElementById('dentro-tit').textContent = A.dentroTit;
+  document.getElementById('dentro-sub').textContent = A.dentroSub;
+  const mods = [1, 2, 3, 4, 5, 6].map(n => '<img src="img/mod' + n + '.png" alt="">').join('');
+  document.getElementById('grade').innerHTML = A.itens.map(it =>
+    '<div class="item' + (it.largo ? ' largo' : '') + (it.inteiro ? ' inteiro' : '') + '"' + (it.c ? ' style="--c:' + it.c + '"' : '') + '><div class="cab">' +
+    (it.icone ? '<img src="' + it.icone + '" alt="">' : '') + '<h3>' + it.t + (it.gratis ? ' <span class="gratis">GRÁTIS</span>' : '') + '</h3></div>' +
+    '<p>' + it.p + '</p>' + (it.mods ? '<div class="mods">' + mods + '</div>' : '') +
+    (it.print ? '<img class="print" src="' + it.print + '" alt="">' : '') + '</div>').join('');
+  document.getElementById('rodape').innerHTML = A.rodape;
+}
+
+qual(); resto(); botoes(A.exemplo);
+// Na página publicada, os dados de verdade vêm dos mesmos manifestos que os apps leem para se atualizar.
+(async () => {
+  try {
+    if (chave === 'launcher') {
+      const m = await (await fetch(A.manifesto + '?t=' + Date.now())).json();
+      botoes({ pc: m.pc, android: m.celular });
+    } else {
+      const [pc, an] = await Promise.all([A.manifesto.pc, A.manifesto.android].map(f => fetch(f + '?t=' + Date.now()).then(r => r.json())));
+      botoes({ pc, android: an });
     }
-  }).catch(() => {});
+  } catch (e) { /* prévia local: fica com os dados de exemplo */ }
+})();
 </script>
 </body>
 </html>
