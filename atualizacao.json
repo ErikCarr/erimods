@@ -26,11 +26,11 @@
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
   "assinatura": "MEUCIAxrGgAby1BlXa584BXOXMqIJ0u2Wu7KYPtAQHDvANtRAiEA9jdmPeP5I6/+qhmLZYbpcbC1Wv/VGKxoBlP0AgJLgiU=",
   "erikloader": {
-    "versao": "0.12.3",
-    "url": "https://github.com/ErikCarr/modrik/releases/download/erikloader-v0.12.3/ErikLoader.dll",
-    "sha256": "1995e1824e0e59f16bc046c0f1fb9645569294a1438ebd939f06c2f9009a5c96",
-    "assinatura": "MEUCIHrlWMdEBUFmI5mfp/6kmoRE4KC1W2juXT583Y8/rWtCAiEAymrQXIe94f3o4syH7HZaBpzxIWU7grFYE1BbjBiSECs=",
-    "tamanho": 25088
+    "versao": "0.20.0",
+    "url": "https://github.com/ErikCarr/erimods/releases/download/erikloader-v0.20.0/ErikLoader.dll",
+    "sha256": "4e8c52c9559db3a230c745413f042bec16aab284f9cf6593e5240af868cda381",
+    "assinatura": "MEYCIQDpFeW+NbN6pe0RV4Yhc5iGtoJdRQlgjlTKMXrfjc7ZkgIhAIyQ31iWpTwCzbQw4kN7lCfageDBeeZpLeu+lsX4fkpe",
+    "tamanho": 74240
   },
   "mural": "https://mural.erikcarr.workers.dev",
   "muralAtualizadoEm": "2026-10-06T20:34:40.014Z",
