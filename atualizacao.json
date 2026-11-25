@@ -1,22 +1,16 @@
 {
-  "versao": "1.8.1",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.8.1/EriMods-v1.8.1.exe",
-  "sha256": "ea032ecaf1892ec7c8b9812858bc49f78313bb798bd1d2c43f247e8df3a6b2d8",
+  "versao": "1.8.2",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.8.2/EriMods-v1.8.2.exe",
+  "sha256": "b4899e8a2023f0b122222f82b0f878da0831b4b54f3e2bacf9f6cc573d71d433",
   "tamanho": 68964760,
   "notas": [
-    "Carregador dos mods da loja novo já na instalação (ErikLoader 0.20.0, com a Vigilância nova)",
-    "Mapa escolhido já vale na primeira partida, mesmo em perfil que nunca abriu o ErikMapas",
-    "Área Mapas na aba Loja (1.8.0)",
-    "\"Tenho um código\" para achar um mapa (1.8.0)",
-    "Baixar mapas direto para o perfil (1.8.0)",
-    "Abrir rápido (1.7.0)",
-    "Mods embutidos pela loja (1.7.0)",
-    "Aba Apps: instalar, abrir e atualizar apps (1.6.0)"
+    "Botão do mural no lobby (Salas 0.5.1)",
+    "`NullReferenceException` em `PlayerControl.HandleRoleRpc` ← `HandleRpc` (17 relatos, 15 pessoas, ENEM/Murder Mystery/O Mesmo Turno)"
   ],
-  "data": "2026-11-18",
+  "data": "2026-11-25",
   "loja": "https://loja.erikcarr.workers.dev",
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
-  "assinatura": "MEYCIQCPtsOw3P4rSPK/DU5g5z2L4cMBnPw7A87pXL1nuzl7rgIhAPjFPlKxDvwMm1ZwXPDSvDiQn2fV2dn3WJzD8GZpPtLy",
+  "assinatura": "MEUCIQC85EyL3uylchOZ8QnozKkGWfhUKKs0BNWRi5D8ZuzaMAIgYvdDNAcqBCU9mX5KOnT0mjA5GTxVPL/bdAZQepFi8qw=",
   "erikloader": {
     "versao": "0.20.0",
     "url": "https://github.com/ErikCarr/erimods/releases/download/erikloader-v0.20.0/ErikLoader.dll",
