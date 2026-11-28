@@ -1,16 +1,15 @@
 {
-  "versao": "1.8.2",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.8.2/EriMods-v1.8.2.exe",
-  "sha256": "b4899e8a2023f0b122222f82b0f878da0831b4b54f3e2bacf9f6cc573d71d433",
-  "tamanho": 68964760,
+  "versao": "1.8.3",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/v1.8.3/EriMods-v1.8.3.exe",
+  "sha256": "2effc4ea1d2f21a3f3d517caccf372906876e246436d26e8388acad7eae737a3",
+  "tamanho": 68968856,
   "notas": [
-    "Botão do mural no lobby (Salas 0.5.1)",
-    "`NullReferenceException` em `PlayerControl.HandleRoleRpc` ← `HandleRpc` (17 relatos, 15 pessoas, ENEM/Murder Mystery/O Mesmo Turno)"
+    "ErikLoader 0.21.0 dentro do app"
   ],
-  "data": "2026-11-25",
+  "data": "2026-11-28",
   "loja": "https://loja.erikcarr.workers.dev",
   "lojaAtualizadaEm": "2026-10-05T22:50:08.547Z",
-  "assinatura": "MEUCIQC85EyL3uylchOZ8QnozKkGWfhUKKs0BNWRi5D8ZuzaMAIgYvdDNAcqBCU9mX5KOnT0mjA5GTxVPL/bdAZQepFi8qw=",
+  "assinatura": "MEYCIQCp+ye24MIyBhR/DjUbqQri804H67q49ienZAkkOotckAIhAKPgELhBRGr0sjH05oTeRDj0UO/R16DHt67OKvByapX/",
   "erikloader": {
     "versao": "0.21.0",
     "url": "https://github.com/ErikCarr/erimods/releases/download/erikloader-v0.21.0/ErikLoader.dll",
