@@ -1,11 +1,10 @@
 {
-  "versao": "1.19.1",
-  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.19.1/EriMods-Celular-v1.19.1.apk",
-  "sha256": "dfcfcaca9dc0891a5afedd26c5c6182c966129e306da7759fb64032ba8781de1",
-  "tamanho": 82493687,
+  "versao": "1.20.0",
+  "url": "https://github.com/ErikCarr/erimods/releases/download/erimods-celular-v1.20.0/EriMods-Celular-v1.20.0.apk",
+  "sha256": "934b28b35d24b3aa442743dc1db5891ae162531f3652a8cf298db376e21f5da4",
+  "tamanho": 82493691,
   "notas": [
-    "Corrige o \"O motor não conseguiu iniciar\" em celulares Xiaomi, POCO e Redmi (motor EriKore 1.8.4)",
-    "\"Tentar de novo\" não mostra mais o erro da tentativa anterior"
+    "Mods da loja baixam mais rápido: o mod que não mudou não é baixado de novo a cada partida (carregador ErikLoader 0.21.0)"
   ],
-  "data": "2026-11-20"
+  "data": "2026-11-28"
 }
